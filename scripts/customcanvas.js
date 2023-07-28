@@ -34,6 +34,8 @@ export class CustomCanvas {
 
         console.log("drawing grid!");
 
+    
+
         this.ctx.beginPath();
 
         var useXOffset = this.xOffset % this.cellSize;

@@ -18,6 +18,7 @@ export class CellularAutomata {
     }
 
     run() {
+
         this.html = this.#setupHTML(this);
     }
 
@@ -26,12 +27,11 @@ export class CellularAutomata {
     }
 
     #setupHTML(ca) {
-        /*var element = document.createElement("p");
+        var element = document.createElement("p");
         document.getElementById("main-header").appendChild(element);
         var text = document.createTextNode("wtf is up my dude lets do a ca");
         element.appendChild(text);
 
         return new Set([element]);
-        */
     }
 }
