@@ -1,1 +1,49 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Artificial Life Playground</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="./scripts/script.js" type="text/javascript" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+
+<body>
+
+    <div id="wrapper">
+
+        <header>
+            <h1>Artifical Life Playground</h1>
+            <div id="app-selector-container">
+                <label for="app-selector">Application: </label>
+                <select id="app-selector">
+                    <option value="EA">Evolutionary Algorithm</option>
+                    <option value="CA">Cellular Automaton</option>
+                    <option value="BV">Braitenberg Vehicle</option>
+                </select>
+            </div>
+            <div id="additional">
+                Add some links and shit here i guess
+            </div>
+        </header>
+
+        <div id="container">
+            <div id="main">
+                <canvas id="main-canvas"></canvas>
+            </div>
+            <div id="resizer"></div>
+            <div id="sidebar">
+                <p>Sidebar content</p>
+                <button id="add-content">Add Content</button>
+                <button id="remove-content">Remove Content</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
